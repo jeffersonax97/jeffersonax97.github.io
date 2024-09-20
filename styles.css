@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('img/1704740607145.png'); /* Gradiente escuro sobre a imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    margin: 0;
+    padding: 0; /* Remover padding do body */
+    height: 100vh; /* Define a altura total da tela */
+    display: flex; /* Usar flexbox para centralizar */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px; /* Adiciona margem para evitar que encoste nas bordas */
+    background-color: rgba(255, 255, 255, 0.089); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #fff; /* Cor do texto do título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9ecef;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center; /* Centraliza o conteúdo do li */
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #d1d1d1;
+}
+
+.representante {
+    font-weight: bold;
+    color: #007BFF; /* Azul para o representante */
+    padding: 10px;
+}
+
+.ra {
+    display: block; /* Faz o RA ficar em uma nova linha */
+    font-size: 0.9em; /* Ajusta o tamanho da fonte do RA */
+    color: #666; /* Cor mais suave para o RA */
+}
